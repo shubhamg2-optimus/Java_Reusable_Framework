@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Retail Test Framework" preserve-order="true"
+    parallel="false">
+    
+<suite-files>
+	<suite-file path="ApiTests.xml"></suite-file>
+	<suite-file path="LululemonWebUITests.xml"></suite-file>
+	<suite-file path="AmazonMobTests.xml"></suite-file>
+	<suite-file path="LululemonMobWebTests.xml"></suite-file>	
+</suite-files>
+
+</suite>

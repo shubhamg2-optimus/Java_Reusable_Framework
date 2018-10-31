@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Web UI Automation Suite">
+  <test thread-count="5" name="Lululemon MobWebUI Tests">
+    <classes>
+      <class name="com.lululemon.mobweb.tests.LululemonMobWebLoginTest"/>
+      <class name="com.lululemon.mobweb.tests.LululemonMobWebCategoryDetailsTest"/>
+      <class name="com.lululemon.mobweb.tests.LululemonMobWebCreateAccountTest"/>
+      <class name="com.lululemon.mobweb.tests.LululemonMobWebSearchProductTest"/>
+    </classes>
+  </test> <!-- Lululemon MobWebUI Tests -->
+</suite> <!-- Suite -->

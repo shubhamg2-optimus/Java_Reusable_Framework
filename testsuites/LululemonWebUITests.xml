@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lululemon WebUI Test Suite" preserve-order="true">
+  
+  <test thread-count="5" name="Lululemon WebUI Test">
+    <classes>
+      <class name="com.lululemon.webui.tests.LululemonLoginTest"/>     
+      <class name="com.lululemon.webui.tests.LululemonCategoryDetailsTest"/>
+      <class name="com.lululemon.webui.tests.LululemonSearchProductTest"/>
+      <class name="com.lululemon.webui.tests.LululemonAddProductToCartTest"/>
+      <class name="com.lululemon.webui.tests.LululemonCreateAccountTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

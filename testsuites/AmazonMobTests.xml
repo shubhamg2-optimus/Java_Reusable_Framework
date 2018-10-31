@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Mobile App Test Suite" preserve-order="true">
+
+  <test thread-count="5" name="Amazon Mobile Login Test">
+    <classes>
+      <class name="com.amazon.mob.tests.AmazonMobLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Amazon Mobile Home Test">
+    <classes>    
+      <class name="com.amazon.mob.tests.AmazonMobHomeTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
